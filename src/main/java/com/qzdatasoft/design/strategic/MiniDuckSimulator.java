@@ -1,7 +1,7 @@
 package com.qzdatasoft.design.strategic;
 
+import com.qzdatasoft.design.strategic.bean.BaseDuck;
 import com.qzdatasoft.design.strategic.fly.FlyRocketPowered;
-import com.qzdatasoft.design.strategic.bean.Duck;
 import com.qzdatasoft.design.strategic.bean.MallardDuck;
 import com.qzdatasoft.design.strategic.bean.ModelDuck;
 
@@ -15,14 +15,14 @@ import com.qzdatasoft.design.strategic.bean.ModelDuck;
 public class MiniDuckSimulator {
     public static void main(String[] args) {
         // 绿头鸭
-        Duck duck = new MallardDuck();
+        BaseDuck duck = new MallardDuck();
         // 执行叫的行为
         duck.performQuack();
         // 执行飞的行为
         duck.performFly();
 
         // 模型鸭
-        Duck model = new ModelDuck();
+        BaseDuck model = new ModelDuck();
         // 执行叫的行为
         model.performFly();
         // 设置飞行行为

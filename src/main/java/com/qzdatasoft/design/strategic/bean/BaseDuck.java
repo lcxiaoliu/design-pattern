@@ -5,12 +5,12 @@ import com.qzdatasoft.design.strategic.quack.QuackBehavior;
 
 /**
  * <h3>design-pattern</h3>
- * <p>鸭子</p>
+ * <p>基础鸭子类</p>
  *
  * @author : shuhua.Liu
- * @date : 2020-05-15 21:04
+ * @date : 2020-05-23 16:40
  **/
-public abstract class Duck {
+public abstract class BaseDuck {
     /**
      * 行为变量被声明为行为“接口”类型
      * 飞行行为
@@ -24,7 +24,7 @@ public abstract class Duck {
     /**
      * 构造器
      */
-    public Duck() {
+    BaseDuck() {
     }
 
     /**
@@ -56,7 +56,7 @@ public abstract class Duck {
 
     /**
      * 设置飞行行为
-     * @param fb
+     * @param fb 飞行行为
      */
     public void setFlyBehavior(FlyBehavior fb) {
         this.flyBehavior = fb;
@@ -64,7 +64,7 @@ public abstract class Duck {
 
     /**
      * 设置呱呱叫行为
-     * @param qb
+     * @param qb 呱呱叫行为
      */
     public void setQuackBehavior(QuackBehavior qb) {
         this.quackBehavior = qb;

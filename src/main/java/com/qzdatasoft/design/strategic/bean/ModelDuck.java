@@ -10,12 +10,13 @@ import com.qzdatasoft.design.strategic.quack.Quack;
  * @author : shuhua.Liu
  * @date : 2020-05-23 14:21
  **/
-public class ModelDuck extends Duck{
+public class ModelDuck extends BaseDuck {
     /**
      * 构造函数
      */
     public ModelDuck() {
         // 默认不会飞
+        super();
         flyBehavior = new FlyNotWay();
         // 默认呱呱叫
         quackBehavior = new Quack();
