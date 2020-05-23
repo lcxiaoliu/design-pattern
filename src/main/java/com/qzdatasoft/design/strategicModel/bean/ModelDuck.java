@@ -1,4 +1,4 @@
-package com.qzdatasoft.design.strategicModel.pojo;
+package com.qzdatasoft.design.strategicModel.bean;
 
 import com.qzdatasoft.design.strategicModel.fly.FlyNotWay;
 import com.qzdatasoft.design.strategicModel.quack.Quack;
