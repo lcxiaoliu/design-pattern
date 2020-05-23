@@ -1,7 +1,7 @@
-package com.qzdatasoft.design.strategicModel.bean;
+package com.qzdatasoft.design.strategic.bean;
 
-import com.qzdatasoft.design.strategicModel.fly.FlyWithWings;
-import com.qzdatasoft.design.strategicModel.quack.Quack;
+import com.qzdatasoft.design.strategic.fly.FlyWithWings;
+import com.qzdatasoft.design.strategic.quack.Quack;
 
 /**
  * <h3>design-pattern</h3>

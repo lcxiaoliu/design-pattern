@@ -1,9 +1,9 @@
-package com.qzdatasoft.design.strategicModel;
+package com.qzdatasoft.design.strategic;
 
-import com.qzdatasoft.design.strategicModel.fly.FlyRocketPowered;
-import com.qzdatasoft.design.strategicModel.bean.Duck;
-import com.qzdatasoft.design.strategicModel.bean.MallardDuck;
-import com.qzdatasoft.design.strategicModel.bean.ModelDuck;
+import com.qzdatasoft.design.strategic.fly.FlyRocketPowered;
+import com.qzdatasoft.design.strategic.bean.Duck;
+import com.qzdatasoft.design.strategic.bean.MallardDuck;
+import com.qzdatasoft.design.strategic.bean.ModelDuck;
 
 /**
  * <h3>design-pattern</h3>

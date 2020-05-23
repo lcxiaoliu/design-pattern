@@ -1,4 +1,4 @@
-package com.qzdatasoft.design.strategicModel.quack;
+package com.qzdatasoft.design.strategic.quack;
 
 /**
  * <h3>design-pattern</h3>
