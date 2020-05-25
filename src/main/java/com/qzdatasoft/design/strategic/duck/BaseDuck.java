@@ -1,7 +1,7 @@
-package com.qzdatasoft.design.strategic.bean;
+package com.qzdatasoft.design.strategic.duck;
 
-import com.qzdatasoft.design.strategic.fly.FlyBehavior;
-import com.qzdatasoft.design.strategic.quack.QuackBehavior;
+import com.qzdatasoft.design.strategic.behavior.fly.FlyBehavior;
+import com.qzdatasoft.design.strategic.behavior.quack.QuackBehavior;
 
 /**
  * <h3>design-pattern</h3>

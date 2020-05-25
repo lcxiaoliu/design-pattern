@@ -1,4 +1,4 @@
-package com.qzdatasoft.design.strategic.fly;
+package com.qzdatasoft.design.strategic.behavior.fly;
 
 /**
  * <h3>design-pattern</h3>
